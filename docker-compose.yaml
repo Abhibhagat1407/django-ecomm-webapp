@@ -2,6 +2,6 @@ version: "3.9"
 services:
   django-ecomm:
     container_name: djapp
-    build: .
+    build:  .
     ports: 
     - 8000:8000
